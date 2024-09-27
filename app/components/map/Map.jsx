@@ -28,7 +28,7 @@ export default function Map() {
       />
       {marker.map((m, index) => (
         <Marker position={m} key={index}>
-          <Popup>
+          <Popup className="popup">
             <p>Latitude: {m.lat}</p>
             <p>Longitude: {m.lng}</p>
           </Popup>

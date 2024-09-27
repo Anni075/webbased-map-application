@@ -81,3 +81,11 @@ main {
     padding-bottom: 350px;
   }
 }
+
+/*marker-popup-styles*/
+div.leaflet-popup-content {
+  padding: 2px;
+}
+.leaflet-popup-content-wrapper {
+  text-align: center;
+}
