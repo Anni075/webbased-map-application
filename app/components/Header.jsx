@@ -1,3 +1,5 @@
+"use client";
+
 export default function Header() {
   console.log("hello World");
   return (

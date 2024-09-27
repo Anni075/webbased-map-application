@@ -1,3 +1,5 @@
+"use client";
+
 import { useMapEvent } from "react-leaflet";
 
 export default function MapClickHandler(props) {
