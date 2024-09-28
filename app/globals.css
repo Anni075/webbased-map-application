@@ -51,21 +51,63 @@ footer a:hover {
   position: relative;
   z-index: 0;
   top: 30px;
+  display: inline-block;
+  border-radius: 5px;
 }
 main {
   padding: 130px;
 }
 
-@media screen and (max-width: 1450px) {
+/*text-styles*/
+div.info-text {
+  display: inline-block;
+  position: relative;
+  background-color: lightgray;
+  border-radius: 5px;
+  width: 650px;
+  left: 53px;
+  bottom: 250px;
+}
+div.info-text ul {
+  line-height: 33px;
+  font-size: 1.15em;
+  padding-top: 7px;
+}
+
+@media screen and (max-width: 1738.4px) {
+  div.info-text {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 1589px) {
+  div.info-text {
+    width: 400px;
+    bottom: 170px;
+  }
+}
+
+@media screen and (max-width: 1488px) {
   .map-container {
     height: 50vh;
     width: 50vh;
     position: relative;
     z-index: 0;
     top: 30px;
+    display: block;
+    border-radius: 5px;
+    left: 240px;
   }
   main {
     padding: 180px;
+  }
+  div.info-text {
+    display: block;
+    bottom: 0;
+    left: 0;
+    top: 50px;
+    width: 510px;
+    left: 240px;
   }
 }
 @media screen and (max-width: 1250px) {
@@ -74,11 +116,19 @@ main {
     width: 40vh;
     position: relative;
     z-index: 0;
+    display: block;
+    border-radius: 5px;
+    left: 110px;
   }
   main {
     padding: 250px;
     padding-top: 150px;
     padding-bottom: 350px;
+  }
+  div.info-text {
+    top: 60px;
+    width: 410px;
+    left: 110px;
   }
 }
 
